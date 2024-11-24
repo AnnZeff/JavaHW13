@@ -13,9 +13,9 @@ public class MovieManager {
         this.limit = limit;
     }
 
-    public void addMovie(String movie){
+    public void addMovie(String movie) {
         String[] tmp = new String[movies.length + 1];
-        for (int i = 0; i < movies.length; i++){
+        for (int i = 0; i < movies.length; i++) {
             tmp[i] = movies[i];
         }
         tmp[tmp.length - 1] = movie;
